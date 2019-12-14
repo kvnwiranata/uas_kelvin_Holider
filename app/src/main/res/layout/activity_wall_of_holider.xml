@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:id="@+id/holider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textColor="@color/colorAccent"
+        android:text="Wall Of HoliDer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        />
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_below="@id/holider"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aplikasi ini dibuat bertujuan untuk menampilkan tanggal dan juga hari libur yang ada disuatu negara selama satu tahun."/>
+
+    <TextView
+        android:id="@+id/dev"
+        android:layout_below="@id/desc"
+        android:paddingTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:text="Developer"
+        android:textSize="24sp"/>
+
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="256dp"
+        android:layout_height="272dp"
+        android:layout_below="@id/dev"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="-1dp"
+        android:src="@drawable/profile" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_below="@id/iv1"
+        android:paddingTop="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:text="KELVIN WIRANATA\n09031281722059"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/openIg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="My Instagram"
+        android:textAllCaps="false"
+        android:padding="13dp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/name"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp" >
+    </Button>
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Home"
+        android:padding="13dp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/openIg"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp" >
+    </Button>
+
+</RelativeLayout>

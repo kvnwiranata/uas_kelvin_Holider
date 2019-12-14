@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/our_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="33sp"
+        android:textColor="@color/colorAccent"
+        android:text="Our Calendar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        />
+
+    <CalendarView
+        android:id="@+id/calendar_view"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/our_date" />
+
+    <Button
+        android:id="@+id/wallOfHolidays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Wall Of Holidays"
+        android:textAllCaps="false"
+        android:padding="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/calendar_view"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"
+        android:textColor="#ffffff"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/wallOfHolider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Wall Of HoliDer"
+        android:textAllCaps="false"
+        android:padding="13dp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/wallOfHolidays"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"
+        android:textColor="#ffffff"
+        android:textSize="16sp"/>
+
+
+</RelativeLayout>

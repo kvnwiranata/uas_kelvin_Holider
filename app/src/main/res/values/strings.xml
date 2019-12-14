@@ -1,0 +1,10 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">HoliDer</string>
+    <string name="title_activity_wall_of_holiday">wall_of_holiday</string>
+    <string name="wall_of_holidays">Wall Of Holidays</string>
+    <string name="Send_FeedBack">Send Us FeedBack</string>
+    <string name="summary_email_subject">Kritik dan Saran <xliff:g example="klvn" id="isiFrom">%s</xliff:g></string>
+    <string name="summary_from">From : <xliff:g example="klvn" id="from">%s</xliff:g></string>
+    <string name="summary_kritik">Kritik : <xliff:g example="waw" id="from">%s</xliff:g></string>
+    <string name="summary_saran">Saran : <xliff:g example="wew" id="from">%s</xliff:g></string>
+</resources>

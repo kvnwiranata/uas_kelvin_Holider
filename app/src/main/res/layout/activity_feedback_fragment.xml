@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:id="@+id/fragmentFeedbackTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:paddingTop="20dp"
+        android:textColor="@color/colorAccent"
+        android:text="kritik dan Saran Terhadap Aplikasi ini : "
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        />
+
+    <TextView
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:id="@+id/nameFrom"
+        android:layout_below="@id/fragmentFeedbackTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        android:text="Dari :"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:id="@+id/isiFrom"
+        android:layout_below="@id/nameFrom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:textColor="@color/colorAccent"
+        android:hint="Tuliskan Email Anda"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:id="@+id/nameKritik"
+        android:layout_below="@id/isiFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        android:text="kritik :"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:id="@+id/isiKritik"
+        android:layout_below="@id/nameKritik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:textColor="@color/colorAccent"
+        android:hint="Tuliskan Kritik Anda"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:id="@+id/nameSaran"
+        android:layout_below="@id/isiKritik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        android:text="Saran :"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:id="@+id/isiSaran"
+        android:layout_below="@id/nameSaran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:textColor="@color/colorAccent"
+        android:hint="Tuliskan Saran Anda"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/kirim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="kirim"
+        android:padding="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/isiSaran"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        android:onClick="submitOrder"/>
+
+</RelativeLayout>
